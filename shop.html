@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>ITShopOnline</title>
+    </head>
+  <body>
+	<header>
+
+		<div class="container-fluid">
+				<div class="row bg-secondary ">
+
+					<div class="d-none d-lg-block col-lg-3 text-light ">
+		        		<p >Հեռախոսահամար: +37477010101</p>
+		      		</div>
+
+					<div class="d-none d-lg-block col-lg-3  text-light">
+		        		<p>Բարի Գալուստ IT shop</p>
+		      		</div>
+
+					<div class="col-sm-6 col-lg-2">
+
+		        		<select class="custom-select" id="menuSelect1">
+		          			<option value="1">AM</option>
+		          			<option value="2">RU</option>
+		          			<option value="3">ENG</option>
+		        		</select>
+
+		      		</div>
+
+		      		<div class="col-sm-6 col-lg-2">
+
+		        		<select class="custom-select" id="menuSelect2">
+		          			 	<option selected>AMD</option>
+		                        <option value="1">USD</option>
+		                        <option value="2">RUB</option>
+		        		</select>
+
+		      		</div>
+
+		      		<button type="button" class="btn btn-info d-none d-lg-block col-lg-2">
+		      			Զամբյուղ <span class="badge badge-danger">9</span>
+		      		</button>
+
+
+		      		<nav class="navbar navbar-dark bg-dark col-12">
+
+						<a class="navbar-brand"  href="index.html">ITShopOnline <svg class="bi bi-code-slash" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							  <path fill-rule="evenodd" d="M4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0zm-.999-3.124a.5.5 0 0 1 .33.625l-4 13a.5.5 0 0 1-.955-.294l4-13a.5.5 0 0 1 .625-.33z"/>
+							</svg>
+						</a>
+
+						<form class="form-inline">
+
+		          			<div class="d-none d-lg-block">
+		            			<input class="form-control " type="search" placeholder="Որոնում . . . " >
+		            			<button class="btn btn-success " type="submit">Փնտրել</button>
+		          			</div>
+
+		          			<div class="dropdown col-3">
+
+		            			<a class="btn dropdown-toggle btn-secondary" href="#" role="button" id="myAccountLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		             			My Account
+		            			</a>
+		          
+		            			<div class="dropdown-menu" aria-labelledby="myAccountLink">
+		              				<a class="dropdown-item" href="#">Login</a>
+		              				<a class="dropdown-item" href="#">Register</a>
+		              				<a class="dropdown-item" href="#">My Orders</a>
+		              				<a class="dropdown-item" href="#">Account Settings</a>
+		            			</div>
+
+		          			</div>
+		    
+		        		</form>
+
+		      		</nav>
+
+
+					<nav class="navbar navbar-expand-lg navbar-dark bg-info col-12"> 
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    			<span class="navbar-toggler-icon"></span>
+		  				</button>
+
+		  				<div class="collapse navbar-collapse " id="navbarNav" >
+
+							<div class="dropdown col-lg-3">
+		  						<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    						WEB ծրագրավորում 
+		  						</button>
+
+		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    						<a class="dropdown-item" href="#">Front-End <span class="badge badge-danger">-10% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="#">Back-End <span class="badge badge-danger">-20% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="#">Full Stack <span class="badge badge-danger">-10% Զեղչ</span></a>
+		  						</div>
+							</div>
+
+							<div class="dropdown col-lg-3">
+		  						<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    						Խաղերի ծրագրավորում
+		  						</button>
+
+		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    						<a class="dropdown-item" href="#">С++</a>
+		    						<a class="dropdown-item" href="#">Python <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="#">JAVA</a>
+		    						<a class="dropdown-item" href="#">Unity</a>
+		  						</div>
+							</div>
+
+							<div class="dropdown col-lg-3">
+		  						<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    						Android ծրագրավորում
+		  						</button>
+
+		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    						<a class="dropdown-item" href="#">JAVA + OOP մակարդակ <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="#">SQLite տվյալների բազա</a>
+		    						<a class="dropdown-item" href="#"> Retrofit 2, RxJava, Realm, Dagger 2</a>
+		  						</div>
+							</div>
+
+							<div class="dropdown col-lg-3">
+		  						<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    						Դեկսթոփ Հավելվածներ
+		  						</button>
+
+		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    						<a class="dropdown-item" href="#">Windows <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="#">macOS</a>
+		    						<a class="dropdown-item" href="#">Linux</a>
+		  						</div>
+							</div>
+
+		  				</div>	
+
+					</nav> 
+					
+				</div>
+			</div>
+
+	</header>
+
+
+	<main>
+		<div class="row conrainer-fluid w-100 mt-3 align-items-center"  >
+			<div class="col-12 col-md-10  align-items-center mt-3">
+					<nav aria-label="breadcrumb">
+					  <ol class="breadcrumb">
+					  	<li class="breadcrumb-item active" aria-current="page">Գլխավոր</li>
+					    <li class="breadcrumb-item"><a href="#">Վեբ ծրագրավորում</a></li>
+					    <li class="breadcrumb-item"><a href="#">Խաղերի ծրագրավորում</a></li>
+					    <li class="breadcrumb-item"><a href="#">Android ծրագրավորում</a></li>
+					    <li class="breadcrumb-item"><a href="#">Desktop ծրագրավորում</a></li>
+					  </ol>
+					</nav>
+			</div>
+			<div class="col-12 col-md-2 d-flex align-items-center">
+						<span>Գինը: </span>
+		        		<select class="custom-select " id="select">
+		          			 	<option selected>Ցածրից բարձր</option>
+		                        <option value="1">Բարձրից ցածր</option>
+		        		</select>	
+			</div>
+		</div>
+		<div class="row  conrainer-fluid  mw-100">
+			<div class="col-md-4 d-none  border d-md-block  ">
+				<div class="row d-flex flex-column bd-highlight">
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+					<div class="col-1 ml-3 mb-2">
+						<a href="#">SELECT BRAND</a>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-12">
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+						  <label class="custom-control-label" for="customSwitch1">Whit images only</label>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="customSwitch2">
+						  <label class="custom-control-label" for="customSwitch2">Free Shipping</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8  col-12 mw-100  d-flex flex-wrap">
+				<div class="row  conrainer-fluid border mw-100">
+					<div class="col-md-4  ">
+						<img src="img/home/fullstack.jpg"  class="img-right w-100 h-100" >
+					</div>
+					<div class="col-md-5  ">
+						<ul class="ml-3 ">
+							<li class="list-unstyled"><h5 class="text-center text-success">Full-Stack Development-ի դասընթաց</h5></li>
+							<li>HTML5, CSS3, BOOTSTRAP4, SASS</li>
+
+							<li>JavaScript, Jquery</li>
+
+							<li>React.js</li>
+
+							<li>Node.js / PHP</li>
+						</ul>
+					</div>
+					<div class="col-md-3 container-fluid my-auto">
+						<h3 class="text-center">60.000 AMD</h3>
+						<p class="text-center">Ամիսը</p>
+						<a class="btn btn-primary container-fluid" href="product.html" role="button">Գնել դասընթացը</a>
+					</div>
+				</div>
+			
+		
+			    <div class="row  conrainer-fluid border mw-100">
+			
+					<div class="col-md-4  ">
+						<img src="img/home/frontend.png"  class="img-right w-100 h-100" >
+					</div>
+					<div class="col-md-5  ">
+						<ul class="ml-3 ">
+							<li class="list-unstyled"><h5 class="text-center text-success">Front-End Development-ի դասընթաց</h5></li>
+							<li>HTML5/CSS3</li>
+
+							<li>JavaScript Essentials</li>
+
+							<li>JavaScript Advanced</li>
+
+						</ul>
+					</div>
+					<div class="col-md-3  container-fluid my-auto">
+						<h3 class="text-center">35.000 AMD</h3>
+						<p class="text-center">Ամիսը</p>
+						<a class="btn btn-primary  container-fluid" href="product.html" role="button">Գնել դասընթացը</a>
+					</div>
+			</div>
+
+			<div class="row  conrainer-fluid border mw-100">
+						<div class="col-md-4  ">
+							<img src="img/home/backend.png"  class="img-right w-100 h-100" >
+						</div>
+						<div class="col-md-5  ">
+							<ul class="ml-3 ">
+								<li class="list-unstyled"><h5 class="text-center text-success">Back-End Development-ի դասընթաց</h5></li>
+								<li>Node.js Core</li>
+
+								<li>Creating a RESTful API with Node.js/Express/MongoDB</li>
+
+								<li>Creating a Real-Time Chat App, Socket.io</li>
+
+								<li>Node.js / PHP</li>
+							</ul>
+						</div>
+					<div class="col-md-3 container-fluid my-auto">
+						<h3 class="text-center">35.000 AMD</h3>
+						<p class="text-center">Ամիսը</p>
+						<a class="btn btn-primary  container-fluid" href="product.html" role="button">Գնել դասընթացը</a>
+					</div>
+			</div>
+
+			<div class="row  conrainer-fluid border mw-100">
+
+							<div class="col-md-4  ">
+								<img src="img/home/game.png"  class="img-right w-100 h-100" >
+							</div>
+							<div class="col-md-5  ">
+								<ul class="ml-3 ">
+									<li class="list-unstyled"><h5 class="text-center text-success">Game Development-ի դասընթաց</h5></li>
+									<li>Տիրապետել Unity3D-ի առանցքային կոմպոնենտների</li>
+
+									<li>Ավելացնել ֆիզիկա Ձեր խաղին</li>
+
+									<li>Ստեղծել սեփական խմբագրիչային գործիքներ (Custom Editors, Inspectors)</li>
+
+									<li>Օպտիմալացնել խաղերը Android և iOS համակարգերի համար</li>
+
+									<li>Ստեղծել Ձեր սեփական խաղը</li>
+								</ul>
+							</div>
+							<div class="col-md-3 container-fluid my-auto">
+								<h3 class="text-center">35.000 AMD</h3>
+								<p class="text-center">Ամիսը</p>
+								<a class="btn btn-primary  container-fluid" href="product.html" role="button">Գնել դասընթացը</a>
+							</div>
+				</div>
+				
+				<div class="row  conrainer-fluid border mw-100">
+			
+					<div class="col-md-4  ">
+						<img src="img/home/desktop.jpg"  class="img-right w-100 h-100" >
+					</div>
+					<div class="col-md-5  ">
+						<ul class="ml-3 ">
+							<li class="list-unstyled"><h5 class="text-center text-success">Full-Stack Development-ի դասընթաց</h5></li>
+							<li>C++ -ը սկսնակների համար, ծանոթացում C++ ծրագրավորման լեվին և հիմնական հասկացություններին,ծանոթացում C++ OOP-ին , ծանոթացում STL գրադարանին ծանոթացում QT գրադարանին:</li>
+						</ul>
+					</div>
+					<div class="col-md-3  container-fluid my-auto">
+						<h3 class="text-center">35.000 AMD</h3>
+						<p class="text-center">Ամիսը</p>
+						<a class="btn btn-primary  container-fluid" href="product.html" role="button">Գնել դասընթացը</a>
+					</div>
+				</div>
+			</div>
+	</main>
+
+
+		<footer class="container-fluid  mw-100 mh-100 d-flex d-sm-block flex-column flex-sm-row  ">
+
+			<div class="row " >
+				<div class="col-md-3 py-3 text-center border bg-dark  div">
+					<p class="font-weight-bold"><a href="#">CONTACT US</a></p>
+				</div>
+				<div class="col-md-3 py-3 text-center border bg-dark">
+					<p class="font-weight-bold"><a href="#">LIVE CHAT</a></p>
+				</div>
+				<div class="col-md-3 py-3 text-center border bg-dark">
+					<p class="font-weight-bold"><a href="#">SHIPPING</a></p>
+				</div>
+				<div class="col-md-3 py-3 text-center border bg-dark">
+					<p class="font-weight-bold"><a href="#">TERM & CONDITIONS</a></p>
+				</div>
+
+			</div>
+			<div class="row ">
+				 <div class="col-md-3  mx-auto text-center border bg-secondary">
+
+			        <h5 class="font-weight-bold  text-uppercase mt-3 mb-4 d-none d-md-block text-light">Links</h5>
+
+			        <ul class="list-unstyled d-none d-md-block">
+			          <li>
+			            <a class="text-light" href="#!">Very long link 1</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 2</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 3</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 4</a>
+			          </li>
+			        </ul>
+
+      			</div>
+      							 <div class="col-md-3 mx-auto text-center border bg-secondary">
+
+			        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 d-none d-md-block text-light">Links</h5>
+
+			        <ul class="list-unstyled d-none d-md-block">
+			          <li>
+			            <a  class="text-light" href="#!">Very long link 1</a>
+			          </li>
+			          <li>
+			            <a class="text-light"  href="#!">Very long link 2</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 3</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 4</a>
+			          </li>
+			        </ul>
+			        
+      			</div>
+      							 <div class="col-md-3 mx-auto text-center border bg-secondary">
+
+			        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 d-none d-md-block text-light">Links</h5>
+
+			        <ul class="list-unstyled d-none d-md-block" >
+			          <li>
+			            <a class="text-light" href="#!">Very long link 1</a>
+			          </li>
+			          <li>
+			            <a class="text-light"  href="#!">Very long link 2</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 3</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 4</a>
+			          </li>
+			        </ul>
+			        
+      			</div>
+      			<div class="col-md-3 mx-auto text-center border hover bg-secondary ">
+
+			        <h5 class="font-weight-bold text-uppercase mt-3 mb-4 d-none d-md-block text-light">Links</h5>
+
+			        <ul class="list-unstyled d-none d-md-block">
+			          <li>
+			            <a class="text-light" href="#!">Very long link 1</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 2</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 3</a>
+			          </li>
+			          <li>
+			            <a class="text-light" href="#!">Very long link 4</a>
+			          </li>
+			        </ul>
+			        
+      			</div>
+			</div>
+			<div class="row bg-dark ">
+		
+					<div class="col-12 col-sm-5 text-dark align-self-center ">
+						<div class="row">
+							<div class="col-1">
+							 	<h3><a href="#"><i class="fa fa-facebook text-info"></i></a>
+							</div>
+							<div class="col-1">
+							 	<h3><a href="#"><i class="fa fa-instagram text-info"></i></a>
+							</div>
+							<div class="col-1">
+							 	<h3><a href="#"><i class="fa fa-youtube-play text-info"></i></a>
+							</div>
+							<div class="col-1">
+							 	<h3><a href="#"><i class="fa fa-telegram text-info"></i></a>
+							</div>
+						</div>	
+					</div>
+	
+					<div class="col-12 col-sm-5">
+						  <div class="footer-copyright  text-right py-3 text-light">
+						  	©Created By 
+						    <a href="#">AbrahamyanStyle.com</a>
+						  </div>
+					</div>
+
+			</div>
+	
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

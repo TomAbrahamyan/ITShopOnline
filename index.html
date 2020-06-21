@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -47,8 +48,8 @@
 
 		      		</div>
 
-		      		<button type="button" class="btn btn-info d-none d-lg-block col-lg-2">
-		      			Զամբյուղ <span class="badge badge-danger">9</span>
+		      		<button type="button" class="btn btn-info d-none d-lg-block col-lg-2  " data-toggle="modal" data-target="#modalwhislist">
+		      			Զամբյուղ <span class="badge badge-danger">2</span>
 		      		</button>
 
 
@@ -75,8 +76,8 @@
 		            			<div class="dropdown-menu" aria-labelledby="myAccountLink">
 		              				<a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLogin">Մուտք</a>
 		              				<a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalRegister">Գրանցվել</a>
-		              				<a class="dropdown-item" href="#">Իմ պատվերները</a>
-		              				<a class="dropdown-item" href="#">Կարգավորումներ</a>
+		              				<a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalorder">Իմ պատվերները</a>
+		              				<a class="dropdown-item" href="myaccount.html">Կարգավորումներ</a>
 		            			</div>
 
 		          			</div>
@@ -99,9 +100,9 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">Front-End <span class="badge badge-danger">-10% Զեղչ</span></a>
-		    						<a class="dropdown-item" href="#">Back-End <span class="badge badge-danger">-20% Զեղչ</span></a>
-		    						<a class="dropdown-item" href="#">Full Stack <span class="badge badge-danger">-10% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="shop.html">Front-End <span class="badge badge-danger">-10% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="shop.html">Back-End <span class="badge badge-danger">-20% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="shop.html">Full Stack <span class="badge badge-danger">-10% Զեղչ</span></a>
 		  						</div>
 							</div>
 
@@ -111,10 +112,10 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">С++</a>
-		    						<a class="dropdown-item" href="#">Python <span class="badge badge-danger">-10% Զեղչ</span></a></a>
-		    						<a class="dropdown-item" href="#">JAVA</a>
-		    						<a class="dropdown-item" href="#">Unity</a>
+		    						<a class="dropdown-item" href="shop.html">С++</a>
+		    						<a class="dropdown-item" href="shop.html">Python <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="shop.html">JAVA</a>
+		    						<a class="dropdown-item" href="shop.html">Unity</a>
 		  						</div>
 							</div>
 
@@ -124,9 +125,9 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">JAVA + OOP մակարդակ <span class="badge badge-danger">-10% Զեղչ</span></a></a>
-		    						<a class="dropdown-item" href="#">SQLite տվյալների բազա</a>
-		    						<a class="dropdown-item" href="#"> Retrofit 2, RxJava, Realm, Dagger 2</a>
+		    						<a class="dropdown-item" href="shop.html">JAVA + OOP մակարդակ <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="shop.html">SQLite տվյալների բազա</a>
+		    						<a class="dropdown-item" href="shop.html"> Retrofit 2, RxJava, Realm, Dagger 2</a>
 		  						</div>
 							</div>
 
@@ -136,9 +137,9 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">Windows <span class="badge badge-danger">-10% Զեղչ</span></a></a>
-		    						<a class="dropdown-item" href="#">macOS</a>
-		    						<a class="dropdown-item" href="#">Linux</a>
+		    						<a class="dropdown-item" href="shop.html">Windows <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="shop.html">macOS</a>
+		    						<a class="dropdown-item" href="shop.html">Linux</a>
 		  						</div>
 							</div>
 
@@ -255,62 +256,73 @@
 			<div class="col-lg-5 container-fluid d-flex flex-sm-row flex-column">
 				<div class="row">
 					<div class="col-lg-12  col-sm-12 col-12 ">
-						<div class="card m-2 "  style="height: 25rem;">
-						  <img src="img/home/fullstack.jpg" class="card-img-top" height="300px">
+						<div class="card m-2 " >
+						  <a href="product.html" target="_blank"><img src="img/home/fullstack.jpg" class="card-img-top img-fluid" height="300px"></a>
 						  <div class="card-body m-auto">
 						    <h5 class="card-title text-danger">90.000 դրամ</h5>
-						    <a href="product.html" target="_blank" class="btn btn-primary">Գնել վիդեոդասերը</a>
+						    <a href="card.html" target="_blank" class="btn btn-primary">Գնել վիդեոդասերը</a>
 						  </div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-12">
-						<div class="card m-2" style="height: 25rem;" >
-							  <img src="img/home/backend.png" height="230px" class="card-img-top">
-							  <div class="card-body m-auto">
+						<div class="card m-2" >
+							  <a href="product.html" target="_blank"><img src="img/home/backend.png"  class="card-img-top img-fluid"></a>
+							  <div class="card-body m-auto d-flex flex-column justify-content-end">
 							    <h5 class="card-title text-danger">45.000 դրամ</h5>
-							    <a href="product.html"  target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
+							    <a href="card.html"  target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-12 ">
-						<div class="card m-2 " style="height: 25rem;">
-							  <img src="img/home/frontend.png" height="230px" class="card-img-top">
-							  <div class="card-body m-auto">
+						<div class="card m-2 " >
+							  <a href="product.html" target="_blank"><img src="img/home/frontend.png"  class="card-img-top img-fluid"></a>
+							  <div class="card-body m-auto d-flex flex-column justify-content-end">
 							    <h5 class="card-title text-danger">45.000 դրամ</h5>
-							    <a href="product.html" target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
+							    <a href="card.html" target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
 							  </div>
 						</div>
 					</div>
+						<div class="col-12">
+							<div class="row ">		
+								<div class="col-lg-6 col-sm-6 col-12 mt-3 ">
+										  <a href="https://www.youtube.com/watch?v=DywSKGbl970" target="_blank"><img src="https://hackr.io/blog/what-is-programming/thumbnail/large"  class=" img-fluid" ></a>
+								</div>
+								<div class="col-lg-6 col-sm-6 col-12   mt-3" >
+										  <a href="https://www.youtube.com/watch?v=8yxDP2naT5U&t=138s" target="_blank"><img src="img/home/large.jpg"  class=" img-fluid"></a>
+								</div>
+							</div>	
+						</div>	
 					</div>
 				</div>
 			
 			<div class="col-lg-7 ">
 				<div class="row container-fluid d-flex flex-column flex-sm-row flex-wrap">
 					<div class="col-lg-6 col-sm-12 col-12">
-						<div class="card m-2  " style="height: 25rem;"  >
-							  <img src="img/home/game.png" height="250px" class="card-img-top">
-
-							  <div class="card-body m-auto">
+						<div class="card m-2  "   >
+							  <a href="product.html" target="_blank"><img src="img/home/game.png " class="card-img-top img-fluid"></a>
+							  <div class="card-body m-auto d-flex flex-column justify-content-end">
 							    <h5 class="card-title text-danger">100.000 դրամ</h5>
-							    <a href="product.html" target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
+							    <a href="card.html" target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-sm-6 col-12">
-						<div class="card m-2" style="height: 25rem;" >
-							  <img src="img/home/desktop.png"  height="250px" class="card-img-top">
-							  <div class="card-body m-auto">
+						<div class="card m-2"  >
+							   <a href="product.html" target="_blank"><img src="img/home/desktop.png"   class="card-img-top img-fluid"></a>
+							  <div class="card-body m-auto d-flex flex-column justify-content-end">
 							    <h5 class="card-title text-danger">80.000 դրամ</h5>
-							    <a href="product.html" target="_blank"  class="btn btn-primary ">Գնել վիդեոդասերը</a>
+							    <a href="card.html" target="_blank"  class="btn btn-primary ">Գնել վիդեոդասերը</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-lg-12   col-sm-6 col-12">
-						<div class="card m-2" style="height: 25rem;" >
-							  <img src="img/home/androiddev.jpg" class="card-img-top" height="300px">
-							  <div class="card-body m-auto">
+						<div class="card m-2" >
+							<a href="product.html" target="_blank">
+							  <img src="img/home/androiddev.jpg" class="card-img-top img-fluid" >
+							 </a>
+							  <div class="card-body m-auto d-flex flex-column justify-content-end">
 							    <h5 class="card-title text-danger">100.000 դրամ</h5>
-							    <a href="product.html" target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
+							    <a href="card.html" target="_blank"  class="btn btn-primary">Գնել վիդեոդասերը</a>
 							  </div>
 						</div>
 					</div>
@@ -322,53 +334,53 @@
 			<div class="col-12">
 				<div class="row">
 					<div class="col-12  col-sm-6 col-lg-3 mb-3">
-						<div class="card" >
-							  <img src="img/home/travel.jpg" class="card-img-top" height="99.5px">
-							  <div class="card-body ">
-							    <h5 class="card-title">Տուրիստական կայք</h5>
+						<div class="card" style="height:22rem;">
+							  <img src="img/home/travel.jpg" class="card-img-top img-fluid" height="99.5px">
+							  <div class="card-body d-flex flex-column justify-content-end ">
+							    <a href="product.html"><h5 class="card-title">Տուրիստական կայք</h5></a>
 							    <p class="card-text text-center text-danger" style="text-decoration:line-through;" >150,000.00 AMD</p>
 							    <p class="card-text text-center">110,000.00 AMD</p>
-							    <a href="#" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
+							    <a href="card.html" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-12 col-sm-6  col-lg-3 mb-3">
-						<div class="card" >
-							  <img src="img/home/news.png" class="card-img-top" height="99.5px">
-							  <div class="card-body">
-							    <h5 class="card-title">Լրատվական կայք</h5>
+						<div class="card" style="height:22rem;">
+							  <img src="img/home/news.png" class="card-img-top img-fluid" height="99.5px">
+							  <div class="card-body d-flex flex-column justify-content-end">
+							    <a href="product.html"><h5 class="card-title">Լրատվական կայք</h5></a>
 							    <p class="card-text text-center text-danger" style="text-decoration:line-through;" >200,000.00 AMD</p>
 							    <p class="card-text text-center">180,000.00 AMD</p>
-							    <a href="#" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
+							    <a href="card.html" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
 							  </div>
 						</div>						
 					</div>
 				
 					<div class="col-12 col-sm-6 col-lg-3 mb-3">
-						<div class="card" >
-							  <img src="img/home/internetshop.jpg" class="card-img-top" height="99.5px">
-							  <div class="card-body">
+						<div class="card" style="height:22rem;">
+							  <img src="img/home/internetshop.jpg" class="card-img-top img-fluid" height="99.5px">
+							  <div class="card-body d-flex flex-column justify-content-end">
 							    <h5 class="card-title">Ինտերնետ խանութ</h5>
 							    <p class="card-text text-center text-danger" style="text-decoration:line-through;" >260,000.00 AMD</p>
 							    <p class="card-text text-center">200,000.00 AMD</p>
-							    <a href="#" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
+							    <a href="card.html" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
 							  </div>
 						</div>						
 					</div>
 					<div class=" col-12 col-sm-6  col-lg-3 mb-3" >
-						<div class="card" >
-							  <img src="img/home/biznes.jpg" class="card-img-top" height="100px">
-							  <div class="card-body">
+						<div class="card" style="height:22rem;">
+							  <img src="img/home/biznes.jpg" class="card-img-top img-fluid" height="100px">
+							  <div class="card-body d-flex flex-column justify-content-end">
 							    <h5 class="card-title">Բիզնես կայք</h5>
 							    <p class="card-text text-center text-danger" style="text-decoration:line-through;" >150,000.00 AMD</p>
 							    <p class="card-text text-center">110,000.00 AMD</p>
-							    <a href="#" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
+							    <a href="card.html" class="btn btn-primary container-fluid m-auto">Պատվիրել</a>
 							  </div>
 						</div>						
 					</div>
 
 				</div>
-			</div>	
+			</div>22
 		</div>
 		</div>
 		<div class="row my-5 mw-100 mh-100 container-fluid">
@@ -376,11 +388,11 @@
 				<h1 class="text-success text-center">Անվճար դասընթացներ</h1>
 			</div>
 			<div class="col-12">
-				<div class="row">
+				<div class="row ">
 					<div class="col-md-3 col-sm-6">
-						<div class="card" >
-							  <img src="img/home/htmlcss.jpg" class="card-img-top" height="180px">
-							  <div class="card-body">
+						<div class="card" style="height:19rem;">
+							  <img src="img/home/htmlcss.jpg" class="card-img-top img-fluid" >
+							  <div class="card-body d-flex flex-column justify-content-end ">
 							    <h5 class="card-title text-info text-center">HTML5 + CSS3</h5>
 							    <p class="card-text text-center">Բազային Գիտելիքներ</p>
 							    <a href="#" class="btn btn-primary container-fluid m-auto">Մասնակացել</a>
@@ -389,9 +401,9 @@
 						</div>				
 					</div>
 					<div class="col-md-3 col-sm-6">
-						<div class="card" >
-							  <img src="img/home/javascript.png" class="card-img-top" height="180px">
-							  <div class="card-body">
+						<div class="card"  style="height:19rem;" >
+							  <img src="img/home/javascript.png" class="card-img-top img-fluid" >
+							  <div class="card-body d-flex flex-column justify-content-end">
 							    <h5 class="card-title text-info text-center">JavaScript</h5>
 							    <p class="card-text text-center">Բազային Գիտելիքներ</p>
 							    <a href="#" class="btn btn-primary container-fluid m-auto">Մասնակացել</a>
@@ -400,10 +412,10 @@
 						</div>										
 					</div>
 					<div class="col-md-3 col-sm-6" >
-						<div class="card" >
-							  <img src="img/home/c++.png" class="card-img-top" height="180px">
-							  <div class="card-body">
-							    <h5 class="card-title text-info text-center">C++</h5>
+						<div class="card"  style="height:19rem;" >
+							  <img src="img/home/c++.png" class="card-img-top img-fluid" >
+							  <div class="card-body d-flex flex-column justify-content-end">
+							    <h5 class="card-title text-info text-center ">C++</h5>
 							    <p class="card-text text-center">Բազային Գիտելիքներ</p>
 							    <a href="#" class="btn btn-primary container-fluid m-auto">Մասնակացել</a>
 							    
@@ -411,9 +423,9 @@
 						</div>						
 					</div>
 					<div class="col-md-3 col-sm-6">
-						<div class="card" >
-							  <img src="img/home/python.jpg" class="card-img-top" height="180px">
-							  <div class="card-body">
+						<div class="card"  style="height:19rem;">
+							  <img src="img/home/python.jpg" class="card-img-top img-fluid" >
+							  <div class="card-body d-flex flex-column justify-content-end" >
 							    <h5 class="card-title text-info text-center">Python</h5>
 							    <p class="card-text text-center">Բազային Գիտելիքներ</p>
 							    <a href="#" class="btn btn-primary container-fluid m-auto">Մասնակացել</a>
@@ -666,6 +678,96 @@
 				</div>
 				</div>
 			</div>
+<!-- MODAL -->
+			<div class="modal fade" id="modalwhislist" tabindex="-1" role="dialog" aria-labelledby="modalwhislistLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalwhislistLabel">Զամբյուղ</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+					<div class="row bg-light mt-3 mr-1 ml-0  mw-100">
+					<div class="col-12 ">
+						<h4 class="m-3">My Wish List <span class="badge badge-danger">2</span></h4><hr>
+						<table class="table mt-2">  
+							 <tbody>
+							   <tr>
+							      <td><img src="img/product/fullstack1.png" alt="" class="img-fluid"></td>
+							      <td><a href="card.html">Full Stack</a></td>
+							      <td>90.000 AMD</td>
+							    </tr>
+							    <tr>
+							      <td><img src="img/home/game.jpg" alt="" class="img-fluid"></td>
+							      <td><a href="card.html">Game Development</a></td>
+							      <td>100.000 AMD</td>
+							    </tr>
+							</tbody>
+						</table>
+						<button type="button" class="btn btn-warning m-3">See All</button>
+					</div>	
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+<!-- MODAL -->
+
+		<div class="modal fade" id="modalorder" tabindex="-1" role="dialog" aria-labelledby="modalorderLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalorderLabel">Իմ Պատվերները</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+				<div class="row bg-light mt-3 mb-4 mr-1 ml-0  mw-100" >
+					<div class="col-12 ">
+						<h3 class="m-3">My Orders</h3><hr>
+						<table class="table mw-100">
+							  <thead>
+							    <tr>
+							      <th scope="col">Order</th>
+							      <th scope="col">Order Date</th>
+							      <th scope="col">Total</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <td>1654/47/14</td>
+							      <td>05.06.2020</td>
+							      <td>$55.88</td>
+							    </tr>
+							    <tr>
+							      <td>8554/87/25</td>
+							      <td>08.05.2020</td>
+							      <td>$65.71</td>
+							    </tr>
+							    <tr>
+							      <td>5064/67/95</td>
+							      <td>18.012.2020</td>
+							      <td>$30.00</td>
+							    </tr>
+							  </tbody>
+						</table>
+						<button type="button" class="btn btn-warning  m-3">See All</button>
+					</div>	
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+
+
+
+
+				
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

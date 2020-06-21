@@ -152,220 +152,167 @@
 
 	</header>
 
+	<main class="container-fluid mw-100 mh-100  mw-100">
+		<div class="row mw-100  m-auto">
+			<div class="col-12">
+				<nav aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+				    <li class="breadcrumb-item"><a href="#">Home</a></li>
+				    <li class="breadcrumb-item"><a href="#">Account Settings</a></li>
+				    <li class="breadcrumb-item active" aria-current="page">My Account</li>
+				  </ol>
+				</nav>
+			</div>	
+		</div>
+		<div class="row bg-light m-auto mw-100">
+			<div class="col-12  mw-100">
+				<h2 class="mb-4">Torgom Abrahamyan</h2>
+				<a class="btn btn-outline-success mb-4" href="myaccount.html" role="button">My Account</a>
+				<a class="btn btn-success mb-4" href="myinfo.html" role="button">My Info</a>
 
-	<main>
-		<div class="row conrainer-fluid w-100 mt-3 align-items-center"  >
-			<div class="col-12 col-md-10  align-items-center mt-3">
-					<nav aria-label="breadcrumb">
-					  <ol class="breadcrumb">
-					  	<li class="breadcrumb-item active" aria-current="page">Գլխավոր</li>
-					    <li class="breadcrumb-item"><a href="#">Վեբ ծրագրավորում</a></li>
-					    <li class="breadcrumb-item"><a href="#">Խաղերի ծրագրավորում</a></li>
-					    <li class="breadcrumb-item"><a href="#">Android ծրագրավորում</a></li>
-					    <li class="breadcrumb-item"><a href="#">Desktop ծրագրավորում</a></li>
-					  </ol>
-					</nav>
+			</div>	
+		</div>
+		<div class="row mb-5 d-flex flex-lg-row flex-md-col" style="background-color:#EEEEEE;">
+			<div class="col-12 col-lg-3">
+				<div class="row bg-light mt-3 mb-4 mr-1 ml-0  mw-100" >
+					<div class="col-12 ">
+						<h3 class="m-3">My Orders</h3><hr>
+						<table class="table mw-100">
+							  <thead>
+							    <tr>
+							      <th scope="col">Order</th>
+							      <th scope="col">Order Date</th>
+							      <th scope="col">Total</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <td>1654/47/14</td>
+							      <td>05.06.2020</td>
+							      <td>$55.88</td>
+							    </tr>
+							    <tr>
+							      <td>8554/87/25</td>
+							      <td>08.05.2020</td>
+							      <td>$65.71</td>
+							    </tr>
+							    <tr>
+							      <td>5064/67/95</td>
+							      <td>18.012.2020</td>
+							      <td>$30.00</td>
+							    </tr>
+							  </tbody>
+						</table>
+						<button type="button" class="btn btn-warning  m-3">See All</button>
+					</div>	
+				</div>
+				<div class="row bg-light mt-3 mr-1 ml-0  mw-100">
+					<div class="col-12 ">
+						<h4 class="m-3">My Wish List <span class="badge badge-danger">2</span></h4><hr>
+						<table class="table mt-2">  
+							 <tbody>
+							   <tr>
+							      <td><img src="img/product/fullstack1.png" alt="" class="img-fluid"></td>
+							      <td><a href="card.html">Full Stack</a></td>
+							      <td>90.000 AMD</td>
+							    </tr>
+							    <tr>
+							      <td><img src="img/home/game.jpg" alt="" class="img-fluid"></td>
+							      <td><a href="card.html">Game Development</a></td>
+							      <td>100.000 AMD</td>
+							    </tr>
+							</tbody>
+						</table>
+						<button type="button" class="btn btn-warning m-3">See All</button>
+					</div>	
+				</div>
 			</div>
-			<div class="col-12 col-md-2 d-flex align-items-center">
-						<span>Գինը: </span>
-		        		<select class="custom-select " id="select">
-		          			 	<option selected>Ցածրից բարձր</option>
-		                        <option value="1">Բարձրից ցածր</option>
-		        		</select>	
+			<div class="col-12 col-lg-6  container  mw-100">
+				<div class="row bg-light mt-3  mw-100">
+					<div class="col-12">
+						<h1 class="m-3">Recent Activity</h1><hr>
+					</div>	
+					<div class="col-12">
+						<h4 class="ml-3">My Recently Viewed</h4>
+					</div>
+					<div class="col-12">
+						<div class="row m-1 border  mw-100">
+							<div class="col-7">
+								<img src="img/home/game.png" class="img-fluid" alt="">
+							</div>
+							<div class="col-5 d-flex justify-content-center flex-column">
+								<a href="shop.html" class="text-center"><h4>GAME Development</h4></a>
+								<h5 class="text-center">45.000 AMD</h5>
+								<a class="btn btn-success" href="card.html" role="button">BUY NOW</a>
+							</div>
+						</div>
+						<div class="row m-1 mt-4 border">
+							<div class="col-5 d-flex justify-content-center flex-column">
+								<a href="shop.html" class="text-center"><h4>Android Development</h4></a>
+								<h5 class="text-center">60.000 AMD</h5>
+								<a class="btn btn-success" href="card.html" role="button">BUY NOW</a>
+							</div>
+							<div class="col-7">
+								<img src="img/home/androiddev.jpg" class="img-fluid" alt="">
+							</div>
+						</div>
+						<div class="row m-1 mt-4 border">
+							<div class="col-7">
+								<img src="img/product/full-stack.png" class="img-fluid" alt="">
+							</div>
+							<div class="col-5 d-flex justify-content-center flex-column">
+								<a href="shop.html" class="text-center"><h4>Full Stack</h4></a>
+								<h5 class="text-center">45.000 AMD</h5>
+								<a class="btn btn-success" href="card.html" role="button">BUY NOW</a>
+							</div>
+						</div>
+						<div class="row m-1 my-4 border">
+							<div class="col-5 d-flex justify-content-center flex-column">
+								<a href="shop.html" class="text-center"><h4>Java Script</h4></a>
+								<h5 class="text-center">Free</h5>
+								<a class="btn btn-success" href="#" role="button">Join</a>
+							</div>
+							<div class="col-7">
+								<img src="img/home/javascript.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="col-12 col-lg-3 container  mw-100">
+				<div class="row bg-light mx-1 mt-3  mw-100">
+					<div class="col-12 ">
+						<h3>Events</h3><hr>
+					</div>	
+					<div class="col-12 d-flex justify-content-center">
+						<div class="btn-group" role="group" aria-label="Basic example">
+							<a class="btn btn-success" href="#" role="button">latest</a>
+							<a class="btn btn-success" href="#" role="button">My Events</a>
+							<a class="btn btn-success" href="#" role="button">Past</a>
+						</div>
+					</div>
+					<div class="row m-1 my-2 border  mw-100">
+							<div class="col-7">
+								<img src="https://image.freepik.com/free-vector/_118419-70.jpg" class="img-fluid" alt="">
+							</div>
+							<div class="col-5 d-flex justify-content-center flex-column">
+								<h3 class="text-center">Live</h3>
+								<p class="text-center">Lorem ipsum dolor sit amet, consectetur.</p>
+							</div>
+					</div>
+					<div class="row m-1 my-2 border  mw-100">
+							<div class="col-7">
+								<img src="https://hackr.io/blog/what-is-programming/thumbnail/large" class="img-fluid" alt="">
+							</div>
+							<div class="col-5 d-flex justify-content-center flex-column">
+								<h3 class="text-center">Live</h3>
+								<p class="text-center">Online Lessons</p>
+							</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
-
-		  <div class="row mw-100 m-auto">
-	    <div class="d-none d-lg-block col-lg-3">
-	       <p>
-	       <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: #808080" class="collapsed">Select course</a>
-	       </p>
-       <div class="collapse" id="collapseExample" style="">
-                          <div class="card card-body">
-                              <div class="form-group form-check ">
-                                <input type="checkbox" class="form-check-input " id="exampleCheck1">
-                                <label class="form-check-label " for="exampleCheck1 ">Web Development</label>
-								<input type="checkbox" class="form-check-input d-block" id="exampleCheck2">
-                                <label class="form-check-label d-block" for="exampleCheck2">Game Development</label>
-								<input type="checkbox" class="form-check-input d-block" id="exampleCheck3">
-                                <label class="form-check-label d-block" for="exampleCheck3">Dekstop Development</label>
-                              </div>
-                              
-                          </div>
-         </div>
-                        <p>
-                            <a data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" style="color: #808080" class="collapsed">
-                              Size
-                            </a>
-
-                          </p>
-                          <div class="collapse" id="collapseExample1" style="">
-                            <div class="card card-body">
-                                <div class="form-group form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">110հ</label>
-                                </div>
-                                <div class="form-group form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">20հ</label>
-                                </div>
-                                <div class="form-group form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">6հ</label>
-                                </div>
-                            </div>
-                          </div>
-                          <p>
-                            <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2" style="color: #808080" class="collapsed">
-                              
-							version
-                            </a>
-                          </p>
-                          <div class="collapse" id="collapseExample2" style="">
-                            <div class="card card-body">
-                                <div class="form-group form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">mini course</label>
-                                </div>
-                                <div class="form-group form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">full course</label>
-                                </div>
-                            </div>
-                          </div>
-                         
-                        
-
-                           <div class="custom-control custom-switch my-2">
-                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                            <label class="custom-control-label" for="customSwitch1" style="color: #808080">With images only</label>
-                          </div>
-
-                          <div class="custom-control custom-switch">
-                            <input type="checkbox" class="custom-control-input" id="customSwitch2">
-                            <label class="custom-control-label" for="customSwitch2" style="color: #808080">Free Shipping</label>
-                          </div>
-
-                        </div>
-                      
-                      <div class="col-12 col-lg-9">
-                          <div class="row m-0 align-items-center">
-                          <div class="col-12 col-sm-6 col-md-12 border p-2 mt-2">
-                            <div class="row align-items-center mb-3">
-                                <div class="col-12 col-md-4 col-lg-3">
-                                    <img class="w-100" src="img/home/fullstack.jpg" alt="">
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-5 text-center text-lg-left">
-                                 <h5><a href="product.html" class="text-decoration-none">Full Stack</a></h5>
-                                    <ul class="d-none d-lg-block">
-                                        <li>HTML5, CSS3, BOOTSTRAP4, SASS</li>
-
-										<li>JavaScript, Jquery</li>
-
-										<li>React.js</li>
-
-										<li>Node.js / PHP</li>
-                                       
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-4 text-center h-100">
-                                    <div><h5>90.000 դրամ</h5></div>
-                                    <div><p>Ամիսը</p></div>
-                                    <a href="card.html"><button class="btn btn-info px-5">Գնել</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-12 border p-2 mt-2">
-							<div class="row align-items-center mb-3">
-                                <div class="col-12 col-md-4 col-lg-3">
-                                    <img class="w-100" src="img/home/frontend.png" alt="">
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-5 text-center text-lg-left">
-                                 <h5><a href="product.html" class="text-decoration-none">Front-End</a></h5>
-                                    <ul class="d-none d-lg-block">
-                                        <li>HTML5/CSS3</li>
-
-										<li>JavaScript Essentials</li>
-
-										<li>JavaScript Advanced</li>
-                                       
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-4 text-center h-100">
-                                    <div><h5>45.000 դրամ</h5></div>
-                                    <div><p>Ամիսը</p></div>
-                                    <a href="card.html"><button class="btn btn-info px-5">Գնել</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-12 border p-2 mt-2">
-                            <div class="row align-items-center mb-3">
-                                <div class="col-12 col-md-4 col-lg-3">
-                                    <img class="w-100" src="img/home/backend.png" alt="">
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-5 text-center text-lg-left">
-                                 <h5><a href="product.html" class="text-decoration-none">Back-End</a></h5>
-                                    <ul class="d-none d-lg-block">
-                                        <li>Node.js Core</li>
-
-										<li>Creating a RESTful API with Node.js/Express/MongoDB</li>
-
-										<li>Creating a Real-Time Chat App, Socket.io</li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-4 text-center h-100">
-                                    <div><h5>45.000 դրամ</h5></div>
-                                    <div><p>Ամիսը</p></div>
-                                    <a href="card.html"><button class="btn btn-info px-5">Գնել</button></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-12 border p-2 mt-2">
-                            <div class="row align-items-center mb-3">
-                                <div class="col-12 col-md-4 col-lg-3">
-                                    <img class="w-100" src="img/home/game.png" alt="">
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-5 text-center text-lg-left">
-                                 <h5><a href="product.html" class="text-decoration-none">Game Development</a></h5>
-                                    <ul class="d-none d-lg-block">
-                                        <li>Unity</li>
-
-										<li>Java</li>
-
-										<li>C++</li>
-
-										<li>C#</li>
-                                       
-                                    </ul>
-                                </div>
-                                <div class="col-12 col-md-4 col-lg-4 text-center h-100">
-                                    <div><h5>100.000 դրամ</h5></div>
-                                    <div><p>Ամիսը</p></div>
-                                    <a href="card.html"><button class="btn btn-info px-5">Գնել</button></a>
-                                </div>
-                            </div>
-                        </div>
-                  		</div>
-                  	</div>	
-               </div>  
-
-  			<nav aria-label="Page navigation example">
-			<ul class="pagination justify-content-center">
-			  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-			  <li class="page-item"><a class="page-link" href="#">1</a></li>
-			  <li class="page-item"><a class="page-link" href="#">2</a></li>
-			  <li class="page-item"><a class="page-link" href="#">3</a></li>
-			  <li class="page-item"><a class="page-link" href="#">Next</a></li>
-			</ul>
-		  </nav>
-
-
-	</main>	
-
-
-
+	</main>
 
 	<footer class="container-fluid  mw-100 mh-100 d-flex d-sm-block flex-column flex-sm-row  ">
 
@@ -697,6 +644,10 @@
 </html>
 
 
+
+
+
+ 
 
 
 

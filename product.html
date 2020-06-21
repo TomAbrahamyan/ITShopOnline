@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -47,8 +48,8 @@
 
 		      		</div>
 
-		      		<button type="button" class="btn btn-info d-none d-lg-block col-lg-2">
-		      			Զամբյուղ <span class="badge badge-danger">9</span>
+		      		<button type="button" class="btn btn-info d-none d-lg-block col-lg-2  " data-toggle="modal" data-target="#modalwhislist">
+		      			Զամբյուղ <span class="badge badge-danger">2</span>
 		      		</button>
 
 
@@ -66,17 +67,17 @@
 		            			<button class="btn btn-success " type="submit">Փնտրել</button>
 		          			</div>
 
-		          			<div class="dropdown col-3 dropleft ">
+		          			<div class="dropdown dropleft col-3">
 
 		            			<a class="btn dropdown-toggle btn-secondary" href="#" role="button" id="myAccountLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		             			Իմ Հաշիվը
 		            			</a>
 		          
-		            			<div class="dropdown-menu " aria-labelledby="myAccountLink">
-		              				<a class="dropdown-item " href="#" data-toggle="modal" data-target="#modalLogin">Մուտք</a>
+		            			<div class="dropdown-menu" aria-labelledby="myAccountLink">
+		              				<a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLogin">Մուտք</a>
 		              				<a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalRegister">Գրանցվել</a>
-		              				<a class="dropdown-item" href="#">Իմ պատվերները</a>
-		              				<a class="dropdown-item" href="#">Կարգավորումներ</a>
+		              				<a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalorder">Իմ պատվերները</a>
+		              				<a class="dropdown-item" href="myaccount.html">Կարգավորումներ</a>
 		            			</div>
 
 		          			</div>
@@ -99,9 +100,9 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">Front-End <span class="badge badge-danger">-10% Զեղչ</span></a>
-		    						<a class="dropdown-item" href="#">Back-End <span class="badge badge-danger">-20% Զեղչ</span></a>
-		    						<a class="dropdown-item" href="#">Full Stack <span class="badge badge-danger">-10% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="shop.html">Front-End <span class="badge badge-danger">-10% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="shop.html">Back-End <span class="badge badge-danger">-20% Զեղչ</span></a>
+		    						<a class="dropdown-item" href="shop.html">Full Stack <span class="badge badge-danger">-10% Զեղչ</span></a>
 		  						</div>
 							</div>
 
@@ -111,10 +112,10 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">С++</a>
-		    						<a class="dropdown-item" href="#">Python <span class="badge badge-danger">-10% Զեղչ</span></a></a>
-		    						<a class="dropdown-item" href="#">JAVA</a>
-		    						<a class="dropdown-item" href="#">Unity</a>
+		    						<a class="dropdown-item" href="shop.html">С++</a>
+		    						<a class="dropdown-item" href="shop.html">Python <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="shop.html">JAVA</a>
+		    						<a class="dropdown-item" href="shop.html">Unity</a>
 		  						</div>
 							</div>
 
@@ -124,9 +125,9 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">JAVA + OOP մակարդակ <span class="badge badge-danger">-10% Զեղչ</span></a></a>
-		    						<a class="dropdown-item" href="#">SQLite տվյալների բազա</a>
-		    						<a class="dropdown-item" href="#"> Retrofit 2, RxJava, Realm, Dagger 2</a>
+		    						<a class="dropdown-item" href="shop.html">JAVA + OOP մակարդակ <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="shop.html">SQLite տվյալների բազա</a>
+		    						<a class="dropdown-item" href="shop.html"> Retrofit 2, RxJava, Realm, Dagger 2</a>
 		  						</div>
 							</div>
 
@@ -136,9 +137,9 @@
 		  						</button>
 
 		  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		    						<a class="dropdown-item" href="#">Windows <span class="badge badge-danger">-10% Զեղչ</span></a></a>
-		    						<a class="dropdown-item" href="#">macOS</a>
-		    						<a class="dropdown-item" href="#">Linux</a>
+		    						<a class="dropdown-item" href="shop.html">Windows <span class="badge badge-danger">-10% Զեղչ</span></a></a>
+		    						<a class="dropdown-item" href="shop.html">macOS</a>
+		    						<a class="dropdown-item" href="shop.html">Linux</a>
 		  						</div>
 							</div>
 
@@ -149,7 +150,7 @@
 				</div>
 			</div>
 
-	</header>	
+	</header>
 
 	<main class="container-fluid mw-100 mb-5 ">
 		<div class="row conrainer-fluid w-100 mt-3 align-items-center"  >
@@ -190,7 +191,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
-					<img src="img/product/full-stack.png" height="400px" width="100%" alt="">
+					<img src="img/product/full-stack.png" class="img-fluid"  height="100%" alt="">
 				</div>
 				<div class="col-12  mw-100 col-md-6  col-lg-3 ">
 					<div class="row ">
@@ -222,7 +223,7 @@
 
 						</div>
 						<div class="col-12 d-flex justify-content-center">
-							<a class="btn btn-success" href="#" role="button">Գրանցվել</a>
+							<a class="btn btn-success" href="card.html" role="button">Գրանցվել</a>
 						</div>	
 					</div>
 				</div>
@@ -275,46 +276,46 @@
 				<div class="row">
 					<div class="col-lg col-md-4 col-sm-6">
 						<div class="card m-2">
-							  <img src="img/home/game.png"  class="card-img-top" height="145px">
+							  <img src="img/home/game.png"  class="card-img-top md-img-fluid" height="145px">
 							  <div class="card-body m-auto">
 							    <h5 class="card-title text-danger">100.000 դրամ</h5>
-							    <a href="#" class="btn btn-primary">Գրանցվել</a>
+							    <a href="card.html" class="btn btn-primary">Գրանցվել</a>
 							  </div>
 						</div>
 					</div>	
 					<div class="col-lg col-md-4 col-sm-6">
 						<div class="card m-2">
-							  <img src="img/home/desktop.png" class="card-img-top" height="145px">
+							  <img src="img/home/desktop.png" class="card-img-top md-img-fluid" height="145px">
 							  <div class="card-body m-auto">
 							    <h5 class="card-title text-danger">80.000 դրամ</h5>
-							    <a href="#" class="btn btn-primary ">Գրանցվել</a>
+							    <a href="card.html" class="btn btn-primary ">Գրանցվել</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-lg col-md-4 col-sm-6">
 						<div class="card m-2">
-							  <img src="img/home/androiddev.jpg" class="card-img-top" height="145px">
+							  <img src="img/home/androiddev.jpg" class="card-img-top md-img-fluid" height="145px">
 							  <div class="card-body m-auto">
 							    <h5 class="card-title text-danger">100.000 դրամ</h5>
-							    <a href="#" class="btn btn-primary">Գրանցվել</a>
+							    <a href="card.html" class="btn btn-primary">Գրանցվել</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-lg col-md-4 col-sm-6">
 						<div class="card m-2 ">
-							  <img src="img/home/frontend.png" height="145px" class="card-img-top">
+							  <img src="img/home/frontend.png" height="145px" class="card-img-top md-img-fluid">
 							  <div class="card-body m-auto">
 							    <h5 class="card-title text-danger">45.000 դրամ</h5>
-							    <a href="#" class="btn btn-primary">Գրանցվել</a>
+							    <a href="card.html" class="btn btn-primary">Գրանցվել</a>
 							  </div>
 						</div>
 					</div>
 					<div class="col-lg col-md-4 col-12">
 						<div class="card m-2" >
-							  <img src="img/home/backend.png" height="145px" class="card-img-top">
+							  <img src="img/home/backend.png" height="145px" class="card-img-top md-img-fluid">
 							  <div class="card-body m-auto">
 							    <h5 class="card-title text-danger">45.000 դրամ</h5>
-							    <a href="#" class="btn btn-primary">Գրանցվել</a>
+							    <a href="card.html" class="btn btn-primary">Գրանցվել</a>
 							  </div>
 						</div>
 					</div>
@@ -492,7 +493,7 @@
 		</div>
 
 		<!-- Modal -->
-		<div class="modal fade " id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="modalRegisterLabel" aria-hidden="true">
+		<div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="modalRegisterLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -556,6 +557,96 @@
 				</div>
 				</div>
 			</div>
+<!-- MODAL -->
+			<div class="modal fade" id="modalwhislist" tabindex="-1" role="dialog" aria-labelledby="modalwhislistLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalwhislistLabel">Զամբյուղ</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+					<div class="row bg-light mt-3 mr-1 ml-0  mw-100">
+					<div class="col-12 ">
+						<h4 class="m-3">My Wish List <span class="badge badge-danger">2</span></h4><hr>
+						<table class="table mt-2">  
+							 <tbody>
+							   <tr>
+							      <td><img src="img/product/fullstack1.png" alt="" class="img-fluid"></td>
+							      <td><a href="card.html">Full Stack</a></td>
+							      <td>90.000 AMD</td>
+							    </tr>
+							    <tr>
+							      <td><img src="img/home/game.jpg" alt="" class="img-fluid"></td>
+							      <td><a href="card.html">Game Development</a></td>
+							      <td>100.000 AMD</td>
+							    </tr>
+							</tbody>
+						</table>
+						<button type="button" class="btn btn-warning m-3">See All</button>
+					</div>	
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+<!-- MODAL -->
+
+		<div class="modal fade" id="modalorder" tabindex="-1" role="dialog" aria-labelledby="modalorderLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalorderLabel">Իմ Պատվերները</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+				<div class="row bg-light mt-3 mb-4 mr-1 ml-0  mw-100" >
+					<div class="col-12 ">
+						<h3 class="m-3">My Orders</h3><hr>
+						<table class="table mw-100">
+							  <thead>
+							    <tr>
+							      <th scope="col">Order</th>
+							      <th scope="col">Order Date</th>
+							      <th scope="col">Total</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <td>1654/47/14</td>
+							      <td>05.06.2020</td>
+							      <td>$55.88</td>
+							    </tr>
+							    <tr>
+							      <td>8554/87/25</td>
+							      <td>08.05.2020</td>
+							      <td>$65.71</td>
+							    </tr>
+							    <tr>
+							      <td>5064/67/95</td>
+							      <td>18.012.2020</td>
+							      <td>$30.00</td>
+							    </tr>
+							  </tbody>
+						</table>
+						<button type="button" class="btn btn-warning  m-3">See All</button>
+					</div>	
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+
+
+
+
+				
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
